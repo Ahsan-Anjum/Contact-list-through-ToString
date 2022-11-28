@@ -1,0 +1,12 @@
+public class Main {
+
+public static void main(String[] args) {
+
+Contact contact1 = new Contact("Ahsan Anjum", "012-345-6789", "Ahsanjum19@gmail.com" ,  "Quetta" , "27-Oct-2022");
+// if we have to add more than 1 contact then we use the below method.
+//Contact contact2 = new Contact("Ayyan", "987-654-3210" , "abcd@gmail.com" , "Quetta" , "1-Mar-2002");
+
+System.out.println(contact1);
+//System.out.println(contact2);
+}
+}
